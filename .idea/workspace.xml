@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FXGLPlatformer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FXGLPlatformer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FXGLPlatformer" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c9c1x5ngQjSAqK2nBRJxgVEl9w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16113281" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Desk\Projects\FXGLPlatformer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\resources\Assests\textures" />
+      <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\resources\Assests\tmx" />
+      <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\resources\Assests\sounds" />
+      <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\resources" />
+      <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.almasb.fxglgames.Jump.Application" />
+      <module name="FXGLPlatformer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="" />
+      <created>1589944037117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589944037117</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="382" key="#Notifications" timestamp="1589944838799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1589944838799" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1589944813110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589944813110" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589960061153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589960061153" />
+    <state x="183" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589961006610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="183" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589961006610" />
+    <state x="1082" y="277" key="FileChooserDialogImpl" timestamp="1589975744245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1082" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589975744245" />
+    <state x="825" y="334" key="Github.ShareDialog" timestamp="1589975723816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="334" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589975723816" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589974470573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589974470573" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589974470573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589974470573" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589974470573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589974470573" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589974470573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589974470573" />
+    <state x="976" y="139" width="587" height="801" key="find.popup" timestamp="1589948083100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="976" y="139" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589948083100" />
+    <state x="685" y="133" key="new project wizard" timestamp="1589950716618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="133" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589950716618" />
+    <state x="202" y="435" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589961488167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="202" y="435" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589961488167" />
+  </component>
+</project>
