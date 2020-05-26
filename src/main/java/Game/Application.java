@@ -5,9 +5,11 @@ import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.entity.components.CollidableComponent;
+import com.almasb.fxgl.entity.level.Level;
 import com.almasb.fxgl.input.Input;
 import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.physics.CollisionHandler;
+
 import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -31,15 +33,16 @@ public class Application extends GameApplication {
 
     @Override
     protected void initGame() {
+
         getGameWorld().addEntityFactory(new JumpToBeatEntityFactory());
-        player = spawn("player", 525, 350);
-        setLevelFromMap("TestLevel.tmx");
-        FXGL.entityBuilder()
-                .type(EntityType.COIN)
-                .at(500, 200)
-                .viewWithBBox(new Circle(15, Color.YELLOW))
-                .with(new CollidableComponent(true))
-                .buildAndAttach();
+        var level = setLevelFromMap("TestLevel.tmx");
+        player = spawn("player", 300, 300);
+        /*
+              FXGL.entityBuilder()
+                .at(525,350)
+                .view("Tests/PlayerDemoIcon.png")
+                .with(new PlayerComponent())
+                .buildAndAttach();*/
     }
 
     @Override
@@ -72,7 +75,7 @@ public class Application extends GameApplication {
     protected void initInput() {
         Input input = FXGL.getInput();
 
-        input.addAction(new UserAction("Right") {
+       input.addAction(new UserAction("Right") {
             @Override
             protected void onAction() {
                 player.getComponent(PlayerComponent.class).right();
@@ -87,7 +90,7 @@ public class Application extends GameApplication {
         }, KeyCode.A);
 
 
-        input.addAction(new UserAction("Move Down") {
+     /*   input.addAction(new UserAction("Move Down") {
             @Override
             protected void onAction() {
                 player.translateY(5);
@@ -101,7 +104,7 @@ public class Application extends GameApplication {
                 player.translateY(-5);
                 FXGL.getGameState().increment("pixels Moved", +5);
             }
-        }, KeyCode.W);
+        }, KeyCode.W);*/
         input.addAction(new UserAction("Play Sound") {
             @Override
             protected void onActionBegin() {
