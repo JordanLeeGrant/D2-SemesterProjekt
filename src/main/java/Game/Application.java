@@ -4,12 +4,14 @@ import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.entity.GameWorld;
 import com.almasb.fxgl.entity.components.CollidableComponent;
 import com.almasb.fxgl.input.Input;
 import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.physics.CollisionHandler;
 import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Box;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
@@ -25,18 +27,22 @@ public class Application extends GameApplication {
     protected void initSettings(GameSettings settings) {
         settings.setWidth(600);
         settings.setHeight(600);
-        settings.setMenuEnabled(true);
+        settings.setMenuEnabled(false);
         settings.setTitle("JumpToBeat-Demo");
         settings.setVersion("0.1");
     }
     @Override
     protected void initGame(){
+        
+
         player = FXGL.entityBuilder()
+                .type(EntityType.PLAYER)
                 .at(300,300)
-                .viewWithBBox(new Rectangle(25,25,Color.RED))
-                //.viewWithBBox("PlayerDemoIcon.png")
+                .viewWithBBox(new Box(48,48,0))
+                .with(new AnimationComponent())
                 .with(new CollidableComponent(true))
                 .buildAndAttach();
+
             FXGL.entityBuilder()
                 .type(EntityType.COIN)
                 .at(500,200)
@@ -50,7 +56,7 @@ public class Application extends GameApplication {
             @Override
                   protected void onCollisionBegin(Entity player, Entity coin){
                     coin.removeFromWorld();
-                   // FXGL.play("smw_1-up.wav");
+                    FXGL.play("smw_1-up.wav");
             }
 
         });
@@ -75,16 +81,19 @@ public class Application extends GameApplication {
         input.addAction(new UserAction("Move Right") {
             @Override
             protected void onAction(){
-                player.translateX(5);
-                FXGL.getGameState().increment("pixels Moved", +5);
+                //player.translateX(5);
+                //FXGL.getGameState().increment("pixels Moved", +5);
+                player.getComponent(AnimationComponent.class).moveRight();
             }
         },KeyCode.D);
 
         input.addAction(new UserAction("Move Left") {
             @Override
             protected void onAction(){
-                player.translateX(-5);
-                FXGL.getGameState().increment("pixels Moved", +5);
+               // player.translateX(-5);
+               // FXGL.getGameState().increment("pixels Moved", +5);
+                player.getComponent(AnimationComponent.class).moveLeft();
+
             }
         },KeyCode.A);
 
