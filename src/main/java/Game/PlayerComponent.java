@@ -9,25 +9,31 @@ import static com.almasb.fxgl.dsl.FXGL.*;
 
 public class PlayerComponent extends Component {
 
+    private int playerJumps,playerHitpoints;
+
+
+    public PlayerComponent()
+    {
+        playerHitpoints = 3;
+        playerJumps = 2;
+    }
     public void left() {
-        //entity.getComponent(AnimationComponent.class).moveLeft();
-        entity.getComponent(PhysicsComponent.class).setVelocityX(-100);
-       // entity.translateX(-5);
+        entity.getComponent(PhysicsComponent.class).setVelocityX(-200);
     }
 
     public void right() {
-       // entity.getComponent(AnimationComponent.class).moveRight();
-        //entity.translateX(5);
-        entity.getComponent(PhysicsComponent.class).setVelocityX(100);
+        entity.getComponent(PhysicsComponent.class).setVelocityX(200);
 
     }
 
     public void jump() {
-
-        entity.getComponent(PhysicsComponent.class).setVelocityY(-200);
+        if (playerJumps>0) {
+            entity.getComponent(PhysicsComponent.class).setVelocityY(-200);
+            playerJumps--;
+        }
     }
 
-    public void attack() {
-
+    public void resetJumps() {
+        playerJumps = 2;
     }
 }

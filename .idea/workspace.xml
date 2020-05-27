@@ -26,12 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="Added Physics and Collision detection for Player -&gt; Coins">
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.39.23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.40.00.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.49.53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.51.36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.52.23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.53.39.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.55.25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.04.15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-26-May-2020-22.47.38.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-26-May-2020-22.48.40.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-26-May-2020-22.50.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-01.05.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-01.05.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-01.08.37.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-01.11.33.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-01.12.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.45.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" afterDir="false" />
     </list>
@@ -231,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590534838579</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Physics and Collision detection for Player -&gt; Coins">
+      <created>1590580157306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590580157306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="125" y="210" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589983011005" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1590517710629">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1590580484637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590517710629" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590580484637" />
     <state x="183" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589961006610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,38 +318,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589977535622" />
-    <state width="938" height="213" key="GridCell.Tab.0.bottom" timestamp="1590579901462">
+    <state width="938" height="213" key="GridCell.Tab.0.bottom" timestamp="1590583065515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1590524586458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586458" />
-    <state width="938" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590579901462" />
-    <state width="938" height="213" key="GridCell.Tab.0.center" timestamp="1590579901462">
+    <state width="938" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590583065515" />
+    <state width="938" height="213" key="GridCell.Tab.0.center" timestamp="1590583065515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="938" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590579901462" />
-    <state width="938" height="213" key="GridCell.Tab.0.left" timestamp="1590579901462">
+    <state width="938" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590583065515" />
+    <state width="938" height="213" key="GridCell.Tab.0.left" timestamp="1590583065515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="938" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590579901462" />
-    <state width="938" height="213" key="GridCell.Tab.0.right" timestamp="1590579901462">
+    <state width="938" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590583065515" />
+    <state width="938" height="213" key="GridCell.Tab.0.right" timestamp="1590583065515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="938" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590579901462" />
+    <state width="938" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590583065515" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1590524697220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

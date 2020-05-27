@@ -40,9 +40,11 @@ public class JumpToBeatEntityFactory implements EntityFactory {
     @Spawns("Platform")
     public Entity newPlatform(SpawnData data) {
         return entityBuilder()
+                .type(EntityType.PLATFORM)
                 .from(data)
                 .bbox(new HitBox(BoundingShape.box(data.<Integer>get("width"), data.<Integer>get("height"))))
                 .with(new PhysicsComponent())
+                .with(new CollidableComponent(true))
                 .build();
     }
 
@@ -52,6 +54,7 @@ public class JumpToBeatEntityFactory implements EntityFactory {
                 .type(EntityType.COIN)
                 .from(data)
                 .viewWithBBox(new Circle(data.<Integer>get("width") / 2, Color.GOLD))
+                .with(new CollidableComponent(true))
                 .build();
     }
 

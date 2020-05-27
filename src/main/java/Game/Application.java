@@ -47,13 +47,19 @@ public class Application extends GameApplication {
 
     @Override
     protected void initPhysics() {
-        FXGL.getPhysicsWorld().addCollisionHandler(new CollisionHandler(EntityType.PLAYER, EntityType.COIN) {
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(EntityType.PLAYER, EntityType.COIN) {
             @Override
             protected void onCollisionBegin(Entity player, Entity coin) {
                 coin.removeFromWorld();
-                FXGL.play("smw_1-up.wav");
+                FXGL.play("smw_1-up.wav"); }
+        });
+        getPhysicsWorld().addCollisionHandler(new CollisionHandler(EntityType.PLAYER, EntityType.PLATFORM)
+        {
+            @Override
+            protected void onCollisionBegin(Entity player, Entity coin)
+            {
+                player.getComponent(PlayerComponent.class).resetJumps();
             }
-
         });
     }
 
@@ -64,11 +70,7 @@ public class Application extends GameApplication {
         distanceCount.setTranslateY(100);
         distanceCount.textProperty().bind(FXGL.getGameState().intProperty("pixels Moved").asString());
         FXGL.getGameScene().addUINode(distanceCount);
-       /* var brickTexture = FXGL.getAssetLoader().loadTexture("PlayerDemoIcon.png");
-        brickTexture.setTranslateX(50);
-        brickTexture.setTranslateY(450);
 
-        FXGL.getGameScene().addUINode(brickTexture);*/
     }
 
     @Override
@@ -82,35 +84,24 @@ public class Application extends GameApplication {
             }
         }, KeyCode.D);
 
-        input.addAction(new UserAction("Left") {
+       input.addAction(new UserAction("Left") {
             @Override
             protected void onAction() {
                 player.getComponent(PlayerComponent.class).left();
             }
         }, KeyCode.A);
-
-
-     /*   input.addAction(new UserAction("Move Down") {
-            @Override
-            protected void onAction() {
-                player.translateY(5);
-                FXGL.getGameState().increment("pixels Moved", +5);
-            }
-        }, KeyCode.S);
-
-        input.addAction(new UserAction("Move Up") {
-            @Override
-            protected void onAction() {
-                player.translateY(-5);
-                FXGL.getGameState().increment("pixels Moved", +5);
-            }
-        }, KeyCode.W);*/
-        input.addAction(new UserAction("Play Sound") {
+       input.addAction(new UserAction("Jump") {
             @Override
             protected void onActionBegin() {
-                FXGL.play("smw_1-up.wav");
+                player.getComponent(PlayerComponent.class).jump();
+            }
+        }, KeyCode.SPACE);
+       input.addAction(new UserAction("Play Sound") {
+            @Override
+            protected void onActionBegin() { FXGL.play("smw_1-up.wav");
             }
         }, KeyCode.F);
+
     }
 
     @Override
