@@ -3,6 +3,7 @@ package Game;
 import com.almasb.fxgl.core.math.FXGLMath;
 import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.component.Component;
+import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.texture.AnimatedTexture;
 import com.almasb.fxgl.texture.AnimationChannel;
 import javafx.geometry.Point2D;
@@ -13,9 +14,7 @@ public class AnimationComponent extends Component {
     private int speed = 0;
 
     private final AnimatedTexture texture;
-    private final AnimationChannel playerAnimationIdle;
-    private final AnimationChannel playerAnimationWalk;
-    private final AnimationChannel playerAnimationJump;
+    private final AnimationChannel playerAnimationIdle,playerAnimationWalk,playerAnimationJump;
 
     public AnimationComponent() {
 
@@ -34,7 +33,16 @@ public class AnimationComponent extends Component {
 
     @Override
     public void onUpdate(double tpf) {
-        entity.translateX(speed * tpf);
+
+        if (!isMoving())
+        {
+            texture.playAnimationChannel(playerAnimationIdle);
+        }
+        else
+        {
+            texture.playAnimationChannel(playerAnimationWalk);
+        }
+       /* entity.translateX(speed * tpf);
 
         if (speed != 0) {
             if (texture.getAnimationChannel() == playerAnimationIdle) {
@@ -47,19 +55,20 @@ public class AnimationComponent extends Component {
                 speed = 0;
                 texture.loopAnimationChannel(playerAnimationIdle);
             }
-        }
+        }*/
+
 
     }
+    private boolean isMoving()
+    {
+       return Math.abs(entity.getComponent(PhysicsComponent.class).getVelocityX()) > 0;
+    }
 
-    public void moveRight() {
-        speed = 150;
-
+    public void moveplayerRight() {
         getEntity().setScaleX(1);
     }
 
-    public void moveLeft() {
-        speed = -150;
-
+    public void moveplayerLeft() {
         getEntity().setScaleX(-1);
     }
 

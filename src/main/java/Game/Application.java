@@ -80,20 +80,20 @@ public class Application extends GameApplication {
        input.addAction(new UserAction("Right") {
             @Override
             protected void onAction() {
-                player.getComponent(PlayerComponent.class).right();
+                player.getComponent(PlayerComponent.class).moveplayerRight();
             }
         }, KeyCode.D);
 
        input.addAction(new UserAction("Left") {
             @Override
             protected void onAction() {
-                player.getComponent(PlayerComponent.class).left();
+                player.getComponent(PlayerComponent.class).moveplayerLeft();
             }
         }, KeyCode.A);
        input.addAction(new UserAction("Jump") {
             @Override
             protected void onActionBegin() {
-                player.getComponent(PlayerComponent.class).jump();
+                player.getComponent(PlayerComponent.class).playerJump();
             }
         }, KeyCode.SPACE);
        input.addAction(new UserAction("Play Sound") {
