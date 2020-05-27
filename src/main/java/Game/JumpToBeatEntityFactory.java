@@ -10,6 +10,7 @@ import com.almasb.fxgl.physics.BoundingShape;
 import com.almasb.fxgl.physics.CircleShapeData;
 import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
+import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
@@ -22,10 +23,17 @@ public class JumpToBeatEntityFactory implements EntityFactory {
 
     @Spawns("player")
     public Entity newPlayer(SpawnData data) {
+
+        PhysicsComponent playerPhysics = new PhysicsComponent();
+        playerPhysics.setBodyType(BodyType.DYNAMIC);
+
         return entityBuilder()
-                .at(525,350)
-                .view("Tests/PlayerDemoIcon.png")
+                .type(EntityType.PLAYER)
+                .at(data.getX(),data.getY())
+                .viewWithBBox("Tests/PlayerDemoIcon.png")
                 .with(new PlayerComponent())
+                .with(new CollidableComponent(true))
+                .with(playerPhysics)
                 .build();
     }
 
@@ -41,6 +49,7 @@ public class JumpToBeatEntityFactory implements EntityFactory {
     @Spawns("Collectible")
     public Entity newCoin(SpawnData data) {
         return entityBuilder()
+                .type(EntityType.COIN)
                 .from(data)
                 .viewWithBBox(new Circle(data.<Integer>get("width") / 2, Color.GOLD))
                 .build();
