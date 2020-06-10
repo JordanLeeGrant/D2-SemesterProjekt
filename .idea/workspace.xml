@@ -25,14 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="added doublejump logic and Classes for BossComponent as well as EnemyComponent">
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-15.45.11.log" afterDir="false" />
+    <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="HeapSort added as well as a DataHandler">
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-08-Jun-2020-12.53.37.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-17.25.13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Highscores.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Save_Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/DataHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.51.36.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/AnimationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/AnimationComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.04.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.37.58.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,15 +138,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Desk\Projects\FXGLPlatformer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\resources\assets\levels" />
       <recent name="G:\Desk\Projects\FXGLPlatformer\src\main" />
       <recent name="G:\Desk\Projects\FXGLPlatformer\src" />
       <recent name="G:\Desk\Projects\FXGLPlatformer\src\main\java" />
       <recent name="G:\Desk\Projects\FXGLPlatformer\src\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Desk\Projects\FXGLPlatformer" />
     </key>
   </component>
   <component name="RunManager">
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590583349320</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Hitbox to player and animation logic was added to PlayerComponent">
+      <created>1590589477220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590589477220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +287,9 @@
     <MESSAGE value="Added PlayerComponent&#10;new Sprites &#10;renamed EFactory to JumpToBeatEntityFactory&#10;Broke Player Movement :(" />
     <MESSAGE value="Added Physics and Collision detection for Player -&gt; Coins" />
     <MESSAGE value="added doublejump logic and Classes for BossComponent as well as EnemyComponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="added doublejump logic and Classes for BossComponent as well as EnemyComponent" />
+    <MESSAGE value="Added Hitbox to player and animation logic was added to PlayerComponent" />
+    <MESSAGE value="HeapSort added as well as a DataHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="HeapSort added as well as a DataHandler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="382" key="#Notifications" timestamp="1589944838799">
@@ -317,38 +328,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589977535622" />
-    <state width="938" height="213" key="GridCell.Tab.0.bottom" timestamp="1590587106525">
+    <state width="916" height="213" key="GridCell.Tab.0.bottom" timestamp="1590595517915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1590524586458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586458" />
-    <state width="938" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590587106525" />
-    <state width="938" height="213" key="GridCell.Tab.0.center" timestamp="1590587106525">
+    <state width="916" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517915" />
+    <state width="916" height="213" key="GridCell.Tab.0.center" timestamp="1590595517915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="938" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590587106525" />
-    <state width="938" height="213" key="GridCell.Tab.0.left" timestamp="1590587106525">
+    <state width="916" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517915" />
+    <state width="916" height="213" key="GridCell.Tab.0.left" timestamp="1590595517914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="938" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590587106525" />
-    <state width="938" height="213" key="GridCell.Tab.0.right" timestamp="1590587106525">
+    <state width="916" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517914" />
+    <state width="916" height="213" key="GridCell.Tab.0.right" timestamp="1590595517915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="938" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590587106525" />
+    <state width="916" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517915" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1590524697220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -357,10 +368,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590525090637" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590583363264">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590589484427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590583363264" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589484427" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590525869147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
