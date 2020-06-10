@@ -13,19 +13,22 @@ import java.util.Scanner;
 
 public class DataHandler
 {
-    List<String> DataList;
+    List<GameData> DataList;
     int[] highscoreTable;
 
     public DataHandler()
     {
+        highscoreTable = new int[10];
         try
         {
             File highscore = new File("src\\data\\Highscores.txt");
 
             Scanner Reader = new Scanner(highscore);
+
             while (Reader.hasNextLine()) {
                 String data = Reader.nextLine();
-                DataList.add(data);
+                String[] gameDataList = data.split("|");
+                DataList.add(new GameData(gameDataList[0],gameDataList[1]));
             }
             Reader.close();
 
@@ -36,20 +39,29 @@ public class DataHandler
             e.printStackTrace();
         }
     }
-    public void addNewHighscore(String[] score)
+    public void updateHighscore(String[] score)
     {
         try
         {
-            String[] temparr =DataList.get(1).split("_");
-            int[] updatescorearray = HeapSort.convToIntArray(temparr);
-            updatescorearray = HeapSort.heapSort(updatescorearray);
 
-            if(highscoreTable[highscoreTable.length-1] == updatescorearray[highscoreTable.length-1])
+            int poc = 0;
+            String[] temparr= new String[highscoreTable.length];
+            for (GameData highscore: DataList) {
+                if (highscore.gDtype.contains("HiSc"))
+                {
+                    temparr[poc] = highscore.gDcontent;
+                }
+            }
+
+            int[] updateScoreArray = HeapSort.convToIntArray(temparr);
+            HeapSort.heapSort(updateScoreArray);
+
+            if(highscoreTable[highscoreTable.length-1] == updateScoreArray[highscoreTable.length-1])
                 return;
 
             for(int i =0 ; i< highscoreTable.length;i++)
             {
-                highscoreTable[i] = updatescorearray[i];
+                highscoreTable[i] = updateScoreArray[i];
             }
         }
         catch(IndexOutOfBoundsException ioobe)
@@ -58,15 +70,19 @@ public class DataHandler
             ioobe.printStackTrace();
         }
     }
+    public void addnewData()
+    {
+
+    }
     public void SaveData()
     {
         try {
 
-            FileWriter myWriter = new FileWriter("src\\data\\Highscores.txt");
+            FileWriter myWriter = new FileWriter("src\\data\\Save_Data.txt");
 
-            for(String item : DataList)
+            for(GameData item : DataList)
             {
-                myWriter.write(item);
+                myWriter.write(item.gDtype+"|"+item.gDcontent+"");
             }
             myWriter.close();
 
@@ -78,7 +94,7 @@ public class DataHandler
         }
     }
     public int[] getHighscoreTable()
-        {
+    {
             return highscoreTable;
-        }
+    }
 }

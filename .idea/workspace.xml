@@ -20,21 +20,18 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Test" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Working" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="HeapSort added as well as a DataHandler">
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-08-Jun-2020-12.53.37.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-17.25.13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Highscores.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Save_Data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/DataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/GameData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Heaptest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.04.15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.37.58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Save_Data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Save_Data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/DataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +146,7 @@
       <recent name="G:\Desk\Projects\FXGLPlatformer\src\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Heaptest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game.Application" />
       <module name="FXGLPlatformer.main" />
@@ -172,13 +169,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Heaptest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heaptest" />
+      <module name="FXGLPlatformer.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Heaptest" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application" />
@@ -253,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590589477220</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HeapSort added as well as a DataHandler">
+      <created>1591795783263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591795783263</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +278,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Test" />
+                        <option value="Working" />
                       </list>
                     </value>
                   </entry>
@@ -328,38 +339,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589977535622" />
-    <state width="916" height="213" key="GridCell.Tab.0.bottom" timestamp="1590595517915">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1591802466325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1590524586458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586458" />
-    <state width="916" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517915" />
-    <state width="916" height="213" key="GridCell.Tab.0.center" timestamp="1590595517915">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591802466325" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1591802466325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="916" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517915" />
-    <state width="916" height="213" key="GridCell.Tab.0.left" timestamp="1590595517914">
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591802466325" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1591802466325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="916" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517914" />
-    <state width="916" height="213" key="GridCell.Tab.0.right" timestamp="1590595517915">
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591802466325" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1591802466325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="916" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590595517915" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591802466325" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1590524697220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -368,10 +379,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590525090637" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590589484427">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591795844933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589484427" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591795844933" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590525869147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

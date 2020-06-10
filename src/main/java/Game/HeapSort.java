@@ -1,5 +1,7 @@
 package Game;
 
+import java.lang.reflect.Array;
+
 public class HeapSort {
 
     static void makeHeap(int[] array, int length, int i) {
@@ -48,22 +50,18 @@ public class HeapSort {
 
     public static int[] convToIntArray(String[] strArray)
     {
-        int[] integerArray = new int[10];
-        int cnt = 0;
+        int[] integerArray = new int[strArray.length];
 
         try
         {
-            for( String score : strArray[1].split("_") )
-            {
-
-                score = score.replace("_", "");
-                integerArray[cnt] = Integer.parseInt(score);
-                cnt++;
+            for (int i = 0 ; i<strArray.length;i++) {
+                integerArray[i] = Integer.parseInt(strArray[i]);
             }
         }
         catch(IndexOutOfBoundsException ioobe){
 
-            System.out.println("woop woop you suck boi");
+            System.out.println("ERROR! IndexOutOfBoundsException");
+            ioobe.printStackTrace();
         }
 
         return integerArray;
