@@ -2,17 +2,14 @@ package Game;
 
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
+import com.almasb.fxgl.app.Viewport;
 import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.Entity;
-import com.almasb.fxgl.entity.components.CollidableComponent;
-import com.almasb.fxgl.entity.level.Level;
 import com.almasb.fxgl.input.Input;
 import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.physics.CollisionHandler;
 
 import javafx.scene.input.KeyCode;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
 import javafx.scene.text.Text;
 
 import java.util.Map;
@@ -35,14 +32,21 @@ public class Application extends GameApplication {
     protected void initGame() {
 
         getGameWorld().addEntityFactory(new JumpToBeatEntityFactory());
-        var level = setLevelFromMap("TestLevel.tmx");
+
+        var level = setLevelFromMap("Map/gamemap.tmx");
+       // var level = setLevelFromMap("TestLevel.tmx");
         player = spawn("player", 300, 300);
+
+        Viewport playerCamera = getGameScene().getViewport();
+        playerCamera.bindToEntity(player,100,100);
+        playerCamera.setZoom(2);
         /*
-              FXGL.entityBuilder()
-                .at(525,350)
-                .view("Tests/PlayerDemoIcon.png")
-                .with(new PlayerComponent())
-                .buildAndAttach();*/
+      FXGL.entityBuilder()
+          .at(525,350)
+          .view("Tests/PlayerDemoIcon.png")
+          .with(new PlayerComponent())
+          .buildAndAttach();
+          */
     }
 
     @Override
@@ -80,14 +84,14 @@ public class Application extends GameApplication {
        input.addAction(new UserAction("Right") {
             @Override
             protected void onAction() {
-                player.getComponent(PlayerComponent.class).moveplayerRight();
+                player.getComponent(PlayerComponent.class).movePlayerRight();
             }
         }, KeyCode.D);
 
        input.addAction(new UserAction("Left") {
             @Override
             protected void onAction() {
-                player.getComponent(PlayerComponent.class).moveplayerLeft();
+                player.getComponent(PlayerComponent.class).movePlayerLeft();
             }
         }, KeyCode.A);
        input.addAction(new UserAction("Jump") {

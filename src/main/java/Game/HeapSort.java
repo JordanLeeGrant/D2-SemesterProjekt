@@ -4,48 +4,48 @@ import java.lang.reflect.Array;
 
 public class HeapSort {
 
-    static void makeHeap(int[] array, int length, int i) {
+    static void makeHeap(int[] preHeapArray, int length, int sortingint) {
 
-        int leftChild = 2*i+1;
-        int rightChild = 2*i+2;
-        int largest = i;
+        int leftChild = 2*sortingint+1;
+        int rightChild = 2*sortingint+2;
+        int largest = sortingint;
 
 
-        if (leftChild < length && array[leftChild] > array[largest]) {
+        if (leftChild < length && preHeapArray[leftChild] > preHeapArray[largest]) {
             largest = leftChild;
         }
 
 
-        if (rightChild < length && array[rightChild] > array[largest]) {
+        if (rightChild < length && preHeapArray[rightChild] > preHeapArray[largest]) {
             largest = rightChild;
         }
 
-        if (largest != i) {
-            int temp = array[i];
-            array[i] = array[largest];
-            array[largest] = temp;
-            makeHeap(array, length, largest);
+        if (largest != sortingint) {
+            int temp = preHeapArray[sortingint];
+            preHeapArray[sortingint] = preHeapArray[largest];
+            preHeapArray[largest] = temp;
+            makeHeap(preHeapArray, length, largest);
         }
     }
-    public static int[] heapSort(int[] array) {
+    public static int[] heapSort(int[] heapArray) {
 
-        if (array.length == 0) return array;
+        if (heapArray.length == 0) return heapArray;
 
 
-        int length = array.length;
+        int length = heapArray.length;
 
 
         for (int i = length / 2-1; i >= 0; i--)
-            makeHeap(array, length, i);
+            makeHeap(heapArray, length, i);
 
         for (int i = length-1; i >= 0; i--) {
-            int temp = array[0];
-            array[0] = array[i];
-            array[i] = temp;
+            int temp = heapArray[0];
+            heapArray[0] = heapArray[i];
+            heapArray[i] = temp;
 
-            makeHeap(array, i, 0);
+            makeHeap(heapArray, i, 0);
         }
-        return array;
+        return heapArray;
     }
 
     public static int[] convToIntArray(String[] strArray)
