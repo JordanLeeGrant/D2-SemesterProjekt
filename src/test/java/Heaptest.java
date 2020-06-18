@@ -1,6 +1,4 @@
-import Game.HeapSort;
-
-import java.lang.reflect.Array;
+import JumpToBeat.HeapSort;
 
 public class Heaptest {
     public static void main(String[] args) {

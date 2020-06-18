@@ -1,6 +1,4 @@
-package Game;
-
-import java.lang.reflect.Array;
+package JumpToBeat;
 
 public class HeapSort {
 

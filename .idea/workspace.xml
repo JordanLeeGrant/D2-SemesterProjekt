@@ -6,15 +6,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -25,41 +16,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="HeapSort added as well as a DataHandler">
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-12.40.09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-12.42.38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-12.44.03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.36.58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.37.11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.37.39.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.38.26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-14.24.50.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-14.25.40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-18-Jun-2020-21.09.33.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/Hintergund.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/Plattform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/bg.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/gamemap.tmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/hintergund.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/white_font.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/levels/Map/white_font.tsx" afterDir="false" />
+    <list default="true" id="57954ed3-1831-4823-9777-b82dab46f19e" name="Default Changelist" comment="JUST everything">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-08-Jun-2020-12.53.37.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.38.28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.39.00.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.40.08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-14.40.37.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-15.45.11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-16.22.13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-16.23.28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-16.24.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-May-2020-17.25.13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/AnimationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/PlayerAnimationComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/EntityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/EntityType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.36.58.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.36.58.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.37.11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.37.11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.37.39.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/FXGL-17-Jun-2020-13.37.39.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/BossComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/BossComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/DataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/EnemyComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/EnemyComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/EntityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/EntityType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/GameData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/JumpToBeatEntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/JumpToBeatEntityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/PlayerAnimationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/PlayerAnimationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/PlayerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JumpToBeat/PlayerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Heaptest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Heaptest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,11 +149,11 @@
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Game.Application" />
+      <option name="MAIN_CLASS_NAME" value="JumpToBeat.Application" />
       <module name="FXGLPlatformer.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Game.*" />
+          <option name="PATTERN" value="JumpToBeat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591805604599</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JUST everything">
+      <created>1592508758770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592508758770</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +315,8 @@
     <MESSAGE value="added doublejump logic and Classes for BossComponent as well as EnemyComponent" />
     <MESSAGE value="Added Hitbox to player and animation logic was added to PlayerComponent" />
     <MESSAGE value="HeapSort added as well as a DataHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="HeapSort added as well as a DataHandler" />
+    <MESSAGE value="JUST everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUST everything" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="382" key="#Notifications" timestamp="1589944838799">
@@ -375,38 +355,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589977535622" />
-    <state width="1877" height="60" key="GridCell.Tab.0.bottom" timestamp="1592413146473">
+    <state width="1877" height="60" key="GridCell.Tab.0.bottom" timestamp="1592508692890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1590524586458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586458" />
-    <state width="1877" height="60" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592413146473" />
-    <state width="1877" height="60" key="GridCell.Tab.0.center" timestamp="1592413146473">
+    <state width="1877" height="60" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592508692890" />
+    <state width="1877" height="60" key="GridCell.Tab.0.center" timestamp="1592508692890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="1877" height="60" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592413146473" />
-    <state width="1877" height="60" key="GridCell.Tab.0.left" timestamp="1592413146473">
+    <state width="1877" height="60" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592508692890" />
+    <state width="1877" height="60" key="GridCell.Tab.0.left" timestamp="1592508692890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="1877" height="60" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592413146473" />
-    <state width="1877" height="60" key="GridCell.Tab.0.right" timestamp="1592413146473">
+    <state width="1877" height="60" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592508692890" />
+    <state width="1877" height="60" key="GridCell.Tab.0.right" timestamp="1592508692890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1590524586457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="176" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1040@0.0.1920.1040" timestamp="1590524586457" />
-    <state width="1877" height="60" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592413146473" />
+    <state width="1877" height="60" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592508692890" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1590524697220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -415,10 +395,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590525090637" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591805618121">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592508782234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591805618121" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592508782234" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590525869147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

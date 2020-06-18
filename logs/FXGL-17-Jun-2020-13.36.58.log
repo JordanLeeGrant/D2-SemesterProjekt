@@ -135,9 +135,9 @@ UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
 13:36:55.120 [FXGL Background Thread 1 ] DEBUG FSServiceImpl        - Reading from: G:\Desk\Projects\FXGLPlatformer\system\fxgl.bundle
 13:36:55.138 [FXGL Background Thread 1 ] DEBUG Engine               - Bundle FXGL: {}
 13:36:55.138 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing application scenes
-13:36:55.195 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+13:36:55.195 [FXGL Background Thread 1 ] DEBUG GameWorld            - JumpToBeat world initialized
 13:36:55.229 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=700, physics.ppm=50.0
-13:36:55.230 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1050x700
+13:36:55.230 [FXGL Background Thread 1 ] DEBUG GameScene            - JumpToBeat scene initialized: 1050x700
 13:36:55.253 [FXGL Background Thread 1 ] DEBUG Input                - Registered new binding: Resume - Esc
 13:36:55.254 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from file system: /assets/textures/pause_menu_bg.png
 13:36:55.276 [FXGL Background Thread 1 ] DEBUG Input                - Registered new binding: Pause - Esc
@@ -162,7 +162,7 @@ UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
 13:36:55.312 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing game world
 13:36:55.312 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Clearing physics world
 13:36:55.312 [FXGL Background Thread 1 ] DEBUG GameScene            - Clearing game scene
-13:36:55.312 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+13:36:55.312 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing JumpToBeat
 13:36:55.320 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from FXGLStartupScene and adding to LoadingScene
 13:36:55.321 [JavaFX Application Thread] DEBUG MainWindow           - FXGLStartupScene -> LoadingScene
 13:36:55.326 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from file system: /assets/levels/TestLevel.tmx
@@ -236,7 +236,7 @@ E: com.almasb.fxgl.entity.level.tiled.TMXLevelLoader.load(TMXLevelLoader.kt:70)
 E: com.almasb.fxgl.app.AssetLoader.loadLevel(AssetLoader.kt:258)
 E: com.almasb.fxgl.dsl.FXGL$Companion.setLevelFromMap(FXGL.kt:407)
 E: com.almasb.fxgl.dsl.FXGL.setLevelFromMap(FXGL.kt)
-E: Game.Application.initGame(Application.java:37)
+E: JumpToBeat.Application.initGame(Application.java:37)
 E: com.almasb.fxgl.app.LoadingScene$InitAppTask.initGame(LoadingScene.kt:137)
 E: com.almasb.fxgl.app.LoadingScene$InitAppTask.call(LoadingScene.kt:106)
 E: com.almasb.fxgl.app.LoadingScene$InitAppTask.call(LoadingScene.kt:94)

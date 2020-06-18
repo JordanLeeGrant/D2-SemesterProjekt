@@ -1,12 +1,10 @@
-package Game;
-import com.sun.javafx.scene.layout.region.Margins;
+package JumpToBeat;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.List;
 import java.util.Scanner;
 

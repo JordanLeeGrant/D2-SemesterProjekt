@@ -1,10 +1,8 @@
-package Game;
+package JumpToBeat;
 
 
-import com.almasb.fxgl.core.math.FXGLMath;
 import com.almasb.fxgl.entity.component.Component;
 import com.almasb.fxgl.physics.PhysicsComponent;
-import com.almasb.fxgl.texture.AnimatedTexture;
 
 public class PlayerComponent extends Component {
 

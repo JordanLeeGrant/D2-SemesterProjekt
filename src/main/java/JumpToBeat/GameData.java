@@ -1,4 +1,4 @@
-package Game;
+package JumpToBeat;
 
 public class GameData {
 
