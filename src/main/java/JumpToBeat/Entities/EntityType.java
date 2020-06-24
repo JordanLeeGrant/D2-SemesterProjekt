@@ -1,0 +1,5 @@
+package JumpToBeat.Entities;
+
+public enum EntityType {
+    PLAYER, COIN, PLATFORM,HAZARD,DOOR,ENEMYJUMPER,ENEMYSEEKER,ENEMYPATROL
+}

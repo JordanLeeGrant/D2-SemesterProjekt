@@ -1,0 +1,316 @@
+03:13:26.039 [main                     ] DEBUG GameApplication      - Logger initialized
+03:13:26.058 [main                     ] DEBUG GameApplication      - Logging settings
+Title: JumpToBeat-Demo
+Version: 0.1
+Width: 1050
+Height: 700
+Fullscreen: false
+Intro: false
+Menus: true
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+
+03:13:26.565 [JavaFX Application Thread] DEBUG Engine               - Initializing FXGL
+03:13:26.565 [JavaFX Application Thread] INFO  Engine               - FXGL-11.7 (05.01.2020 09.37) on WINDOWS (J:11.0.5 FX:12.0.1)
+03:13:26.566 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+03:13:26.566 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+03:13:26.566 [JavaFX Application Thread] DEBUG Engine               - Initializing environment variables
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - Logging environment variables
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - achievements: []
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - sceneStack: com.almasb.fxgl.app.Engine@5f0ae18a
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - language: ObjectProperty [value: ENGLISH]
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - isCloseConfirmation: false
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - isProfilingEnabled: false
+03:13:26.569 [JavaFX Application Thread] DEBUG Engine               - soundNotification: core/notification.wav
+03:13:26.570 [JavaFX Application Thread] DEBUG Engine               - devShowBBoxProperty: BooleanProperty [value: false]
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - pixelsPerMeter: 50.0
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - overlayRoot: Group@5a7d05d1
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - soundMenuBack: menu/back.wav
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - appIcon: fxgl_icon.png
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - isFullScreenAllowed: false
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - isIntroEnabled: false
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - eventBus: com.almasb.fxgl.event.EventBus@4321fe7a
+03:13:26.571 [JavaFX Application Thread] DEBUG Engine               - fontMono: lucida_console.ttf
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - soundMenuSelect: menu/select.wav
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - isWindows: true
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - isMobile: false
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - height: 700
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - isExperimentalNative: false
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - cSSList: [fxgl_dark.css]
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - isSingleStep: false
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - fontGame: Abel-Regular.ttf
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - menuKey: ESCAPE
+03:13:26.572 [JavaFX Application Thread] DEBUG Engine               - devShowPositionProperty: BooleanProperty [value: false]
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - versionCheckDays: 7
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - masterTimer: com.almasb.fxgl.time.Timer@4b2f4125
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - configClass: Optional.empty
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - isFullScreenFromStart: false
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - version: 0.1
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - fullScreen: BooleanProperty [value: false]
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - randomSeed: -1
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - dialogFactory: com.almasb.fxgl.ui.FXGLDialogFactory@64ab5e75
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - applicationMode: DEVELOPER
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - isMac: false
+03:13:26.573 [JavaFX Application Thread] DEBUG Engine               - urlGoogleForms: https://goo.gl/forms/6wrMnOBxTE1fEpOy2
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - isMenuEnabled: true
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - urlPOM: https://raw.githubusercontent.com/AlmasB/FXGL/master/pom.xml
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - profileName: user.profile
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - notificationViewClass: class com.almasb.fxgl.notification.view.XboxNotificationView
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - devSensorColorProperty: ObjectProperty [value: 0xffff00ff]
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - sceneFactory: com.almasb.fxgl.app.SceneFactory@564a9cbc
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - dataFileExt: .dat
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - stageStyle: DECORATED
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - isManualResizeEnabled: false
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - title: JumpToBeat-Demo
+03:13:26.574 [JavaFX Application Thread] DEBUG Engine               - platform: WINDOWS
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - devBBoxColorProperty: ObjectProperty [value: 0xff0000ff]
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - isDesktop: true
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - credits: []
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - globalMusicVolumeProperty: DoubleProperty [value: 0.5]
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - uIFactory: com.almasb.fxgl.ui.FXGLUIFactory@1ad46a21
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - isPreserveResizeRatio: false
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - fontText: Courier-Prime.ttf
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - isExperimentalTiledLargeMap: false
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - secondsIn24h: 60
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - runtimeInfo: RuntimeInfo(platform=WINDOWS, version=11.7, build=05.01.2020 09.37)
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - isLinux: false
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - soundMenuPress: menu/press.wav
+03:13:26.575 [JavaFX Application Thread] DEBUG Engine               - urlGithub: https://github.com/AlmasB/FXGL
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - profileDir: profiles/
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - isDeveloperMenuEnabled: false
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - globalSoundVolumeProperty: DoubleProperty [value: 0.5]
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - isBrowser: false
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - globalSoundVolume: 0.5
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - urlLeaderboard: http://fxgl-top.herokuapp.com/
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - saveDir: saves/
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - engineServices: [class com.almasb.fxgl.audio.AudioPlayer, class com.almasb.fxgl.notification.impl.NotificationServiceProvider, class com.almasb.fxgl.achievement.AchievementManager, class com.almasb.fxgl.cutscene.CutsceneService, class com.almasb.fxgl.minigames.MiniGameService]
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - globalMusicVolume: 0.5
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - width: 1050
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - saveFileExt: .sav
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - isAndroid: false
+03:13:26.576 [JavaFX Application Thread] DEBUG Engine               - fontUI: VarelaRound-Regular.ttf
+03:13:26.577 [JavaFX Application Thread] DEBUG Engine               - enabledMenuItems: []
+03:13:26.577 [JavaFX Application Thread] DEBUG Engine               - isIOS: false
+03:13:26.579 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.audio.AudioPlayer
+03:13:26.580 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.notification.impl.NotificationServiceProvider
+03:13:26.580 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.achievement.AchievementManager
+03:13:26.581 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.cutscene.CutsceneService
+03:13:26.581 [JavaFX Application Thread] DEBUG Engine               - Adding new engine service: class com.almasb.fxgl.minigames.MiniGameService
+03:13:26.584 [JavaFX Application Thread] DEBUG Engine               - Loading localizations
+03:13:26.587 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/properties/languages/english.properties
+03:13:26.589 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/properties/languages/french.properties
+03:13:26.590 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/properties/languages/german.properties
+03:13:26.591 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/properties/languages/russian.properties
+03:13:26.592 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/properties/languages/hungarian.properties
+03:13:26.594 [JavaFX Application Thread] DEBUG Engine               - Registering font factories
+03:13:26.594 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/ui/fonts/VarelaRound-Regular.ttf
+03:13:26.736 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/ui/fonts/Abel-Regular.ttf
+03:13:26.738 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/ui/fonts/lucida_console.ttf
+03:13:26.743 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/ui/fonts/Courier-Prime.ttf
+03:13:26.746 [JavaFX Application Thread] DEBUG Engine               - Setting UI factory
+03:13:26.834 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/textures/fxgl_logo.png
+03:13:26.890 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+03:13:26.936 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1050.0 x 700.0
+03:13:26.936 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1050.0 x 700.0
+03:13:26.936 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+03:13:26.938 [JavaFX Application Thread] DEBUG MainWindow           - Set initial scene to FXGLStartupScene
+03:13:26.946 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/textures/fxgl_icon.png
+03:13:26.962 [JavaFX Application Thread] DEBUG Engine               - Applying CSS: fxgl_dark.css
+03:13:26.963 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/ui/css/fxgl_dark.css
+03:13:26.967 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/ui/cursors/fxgl_default.png
+03:13:26.969 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+03:13:27.114 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (16.0, 39.0)
+03:13:27.115 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1050.0 x 700.0
+03:13:27.115 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+03:13:27.115 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1050.0 x 700.0
+03:13:27.115 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1066.0 x 739.0
+03:13:27.151 [FXGL Background Thread 1 ] DEBUG FS                   - Loaded FSServiceImpl
+03:13:27.152 [FXGL Background Thread 1 ] DEBUG Engine               - Loading FXGL system data
+03:13:27.156 [FXGL Background Thread 1 ] DEBUG FSServiceImpl        - Reading from: G:\Desk\Projects\FXGLPlatformer\system\fxgl.bundle
+03:13:27.175 [FXGL Background Thread 1 ] DEBUG Engine               - Bundle FXGL: {}
+03:13:27.175 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing application scenes
+03:13:27.214 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+03:13:27.255 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=700, physics.ppm=50.0
+03:13:27.257 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1050x700
+03:13:27.303 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from file system: /assets/textures/particles/trace_horizontal.png
+03:13:27.313 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyMainMenu()
+03:13:27.326 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+03:13:27.330 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from file system: /assets/textures/particles/smoke.png
+03:13:27.374 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/particles/trace_horizontal.png@64.0x64.0
+03:13:27.374 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+03:13:27.379 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+03:13:27.382 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/particles/smoke.png@128.0x128.0
+03:13:27.398 [FXGL Background Thread 1 ] DEBUG Engine               - Application scenes initialized
+03:13:27.401 [JavaFX Application Thread] DEBUG Engine               - Running preInit()
+03:13:27.409 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Right - D
+03:13:27.409 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Left - A
+03:13:27.409 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Jump - Space
+03:13:27.409 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Play Sound - F
+03:13:27.410 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+03:13:27.410 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+03:13:27.410 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+03:13:27.410 [JavaFX Application Thread] DEBUG Engine               - generateDefaultProfile()
+03:13:27.410 [JavaFX Application Thread] DEBUG Engine               - Creating default profile
+03:13:27.410 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+03:13:27.421 [JavaFX Application Thread] INFO  Engine               - FXGL initialization took: 0.837 sec
+03:13:27.421 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+03:13:27.429 [JavaFX Application Thread] DEBUG FXGLStartupScene     - STARTUP
+03:13:27.433 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:27.456 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from FXGLStartupScene and adding to FXGLDefaultMenu
+03:13:27.456 [JavaFX Application Thread] DEBUG MainWindow           - FXGLStartupScene -> FXGLDefaultMenu
+03:13:28.452 [JavaFX Application Thread] DEBUG Menu                 - fireNewGame()
+03:13:28.452 [JavaFX Application Thread] DEBUG Engine               - Starting new game
+03:13:28.456 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:28.457 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+03:13:28.457 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing game world
+03:13:28.457 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Clearing physics world
+03:13:28.457 [FXGL Background Thread 1 ] DEBUG GameScene            - Clearing game scene
+03:13:28.457 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+03:13:28.463 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from FXGLDefaultMenu and adding to LoadingScene
+03:13:28.463 [JavaFX Application Thread] DEBUG MainWindow           - FXGLDefaultMenu -> LoadingScene
+03:13:28.501 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from file system: /assets/levels/Map/unbenannt.tmx
+03:13:28.523 [FXGL Background Thread 1 ] WARN  TMXLevelLoader       - TiledMap generated from 1.3.4. Supported version: 1.2.3. Some features may not be parsed fully.
+03:13:28.540 [FXGL Background Thread 1 ] DEBUG TMXLevelLoader       - Parsed raw map: TiledMap(width=45, height=30, tilewidth=30, tileheight=30, orientation=orthogonal, layers=[Layer(width=45, height=30, name=Kachelebene 1, type=tilelayer, visible=false, x=0, y=0, data=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], objects=[], opacity=0.0, draworder=), Layer(width=0, height=0, name=, type=objectgroup, visible=false, x=0, y=0, data=[], objects=[com.almasb.fxgl.entity.level.tiled.TiledObject@669841db, com.almasb.fxgl.entity.level.tiled.TiledObject@5c82f012, com.almasb.fxgl.entity.level.tiled.TiledObject@51492010, com.almasb.fxgl.entity.level.tiled.TiledObject@17d444b3, com.almasb.fxgl.entity.level.tiled.TiledObject@33e6590b, com.almasb.fxgl.entity.level.tiled.TiledObject@78af3d05, com.almasb.fxgl.entity.level.tiled.TiledObject@607edba0, com.almasb.fxgl.entity.level.tiled.TiledObject@55baeac0, com.almasb.fxgl.entity.level.tiled.TiledObject@5495df7d, com.almasb.fxgl.entity.level.tiled.TiledObject@55d397ff, com.almasb.fxgl.entity.level.tiled.TiledObject@4366f53e, com.almasb.fxgl.entity.level.tiled.TiledObject@4188eb78, com.almasb.fxgl.entity.level.tiled.TiledObject@3b9caa03, com.almasb.fxgl.entity.level.tiled.TiledObject@72b9bee0, com.almasb.fxgl.entity.level.tiled.TiledObject@6826a8c, com.almasb.fxgl.entity.level.tiled.TiledObject@d7920f, com.almasb.fxgl.entity.level.tiled.TiledObject@5e45fca4, com.almasb.fxgl.entity.level.tiled.TiledObject@61341732, com.almasb.fxgl.entity.level.tiled.TiledObject@74f7d792, com.almasb.fxgl.entity.level.tiled.TiledObject@488c64e9, com.almasb.fxgl.entity.level.tiled.TiledObject@39dd0180, com.almasb.fxgl.entity.level.tiled.TiledObject@78110c0e, com.almasb.fxgl.entity.level.tiled.TiledObject@32100fd9, com.almasb.fxgl.entity.level.tiled.TiledObject@19108e5e, com.almasb.fxgl.entity.level.tiled.TiledObject@48104dfd, com.almasb.fxgl.entity.level.tiled.TiledObject@3891498d, com.almasb.fxgl.entity.level.tiled.TiledObject@a4df781, com.almasb.fxgl.entity.level.tiled.TiledObject@1732eae8, com.almasb.fxgl.entity.level.tiled.TiledObject@5d873256, com.almasb.fxgl.entity.level.tiled.TiledObject@6f68d54a], opacity=0.0, draworder=)], tilesets=[], backgroundcolor=, renderorder=right-down, nextobjectid=46, version=1, tiledversion=1.3.4, type=map, infinite=false, properties={}, propertytypes={})
+03:13:28.541 [FXGL Background Thread 1 ] DEBUG TMXLevelLoader       - Creating tile layer entities
+03:13:28.541 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Loading view for layer Kachelebene 1
+03:13:28.543 [FXGL Background Thread 1 ] DEBUG TilesetLoader        - Created buffer with size 1350.0x900.0
+03:13:28.544 [FXGL Background Thread 1 ] DEBUG TMXLevelLoader       - Creating object layer entities
+03:13:28.571 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing removable entities
+03:13:28.571 [FXGL Background Thread 1 ] DEBUG GameWorld            - Setting level: com.almasb.fxgl.entity.level.Level@7262bb10
+03:13:28.598 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+03:13:28.599 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+03:13:28.601 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+03:13:28.601 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.146 sec
+03:13:28.608 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:28.620 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from LoadingScene and adding to GameScene
+03:13:28.620 [JavaFX Application Thread] DEBUG MainWindow           - LoadingScene -> GameScene
+03:13:29.938 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/sounds/smw_coin.wav
+03:13:30.416 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:30.880 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:31.312 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:31.920 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:32.320 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:33.008 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:33.616 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:33.952 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:34.416 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:35.072 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:35.376 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:37.120 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:37.936 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:38.992 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:40.113 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:40.480 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:40.624 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:41.904 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:42.016 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:42.018 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+03:13:42.019 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:42.021 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+03:13:42.021 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+03:13:42.951 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+03:13:42.951 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:42.951 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+03:13:42.952 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+03:13:44.849 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+03:13:44.849 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:44.850 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+03:13:44.850 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+03:13:46.954 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+03:13:46.954 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:46.955 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+03:13:46.955 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+03:13:46.971 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+03:13:46.971 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:46.973 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+03:13:46.973 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+03:13:46.973 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+03:13:46.974 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/levels/Map/unbenannt.tmx
+03:13:46.975 [JavaFX Application Thread] WARN  TMXLevelLoader       - TiledMap generated from 1.3.4. Supported version: 1.2.3. Some features may not be parsed fully.
+03:13:46.979 [JavaFX Application Thread] DEBUG TMXLevelLoader       - Parsed raw map: TiledMap(width=45, height=30, tilewidth=30, tileheight=30, orientation=orthogonal, layers=[Layer(width=45, height=30, name=Kachelebene 1, type=tilelayer, visible=false, x=0, y=0, data=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], objects=[], opacity=0.0, draworder=), Layer(width=0, height=0, name=, type=objectgroup, visible=false, x=0, y=0, data=[], objects=[com.almasb.fxgl.entity.level.tiled.TiledObject@4923143b, com.almasb.fxgl.entity.level.tiled.TiledObject@5ffc0b58, com.almasb.fxgl.entity.level.tiled.TiledObject@22488cdc, com.almasb.fxgl.entity.level.tiled.TiledObject@f0a574c, com.almasb.fxgl.entity.level.tiled.TiledObject@5ed9085a, com.almasb.fxgl.entity.level.tiled.TiledObject@61c07e12, com.almasb.fxgl.entity.level.tiled.TiledObject@788309a, com.almasb.fxgl.entity.level.tiled.TiledObject@5ae5b710, com.almasb.fxgl.entity.level.tiled.TiledObject@4c68efce, com.almasb.fxgl.entity.level.tiled.TiledObject@2e3a28bf, com.almasb.fxgl.entity.level.tiled.TiledObject@6870d102, com.almasb.fxgl.entity.level.tiled.TiledObject@1fdaa62b, com.almasb.fxgl.entity.level.tiled.TiledObject@14472c81, com.almasb.fxgl.entity.level.tiled.TiledObject@6b479166, com.almasb.fxgl.entity.level.tiled.TiledObject@5d1b5cd, com.almasb.fxgl.entity.level.tiled.TiledObject@4ff0b0a2, com.almasb.fxgl.entity.level.tiled.TiledObject@627ebef9, com.almasb.fxgl.entity.level.tiled.TiledObject@3565cf71, com.almasb.fxgl.entity.level.tiled.TiledObject@3d126bcd, com.almasb.fxgl.entity.level.tiled.TiledObject@77adb96d, com.almasb.fxgl.entity.level.tiled.TiledObject@60335817, com.almasb.fxgl.entity.level.tiled.TiledObject@7b361d27, com.almasb.fxgl.entity.level.tiled.TiledObject@55d44d8f, com.almasb.fxgl.entity.level.tiled.TiledObject@4f28f089, com.almasb.fxgl.entity.level.tiled.TiledObject@35a1fa9b, com.almasb.fxgl.entity.level.tiled.TiledObject@7e35162d, com.almasb.fxgl.entity.level.tiled.TiledObject@97a8451, com.almasb.fxgl.entity.level.tiled.TiledObject@15e914f, com.almasb.fxgl.entity.level.tiled.TiledObject@3b91d6dd, com.almasb.fxgl.entity.level.tiled.TiledObject@6d432bfc], opacity=0.0, draworder=)], tilesets=[], backgroundcolor=, renderorder=right-down, nextobjectid=46, version=1, tiledversion=1.3.4, type=map, infinite=false, properties={}, propertytypes={})
+03:13:46.979 [JavaFX Application Thread] DEBUG TMXLevelLoader       - Creating tile layer entities
+03:13:46.980 [JavaFX Application Thread] DEBUG TilesetLoader        - Loading view for layer Kachelebene 1
+03:13:46.982 [JavaFX Application Thread] DEBUG TilesetLoader        - Created buffer with size 1350.0x900.0
+03:13:46.982 [JavaFX Application Thread] DEBUG TMXLevelLoader       - Creating object layer entities
+03:13:46.989 [JavaFX Application Thread] DEBUG GameWorld            - Clearing removable entities
+03:13:46.989 [JavaFX Application Thread] DEBUG GameWorld            - Setting level: com.almasb.fxgl.entity.level.Level@6c286c6
+03:13:52.746 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+03:13:52.746 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:13:52.746 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+03:13:52.746 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+03:13:54.032 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:54.432 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:54.576 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:55.185 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:56.256 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:56.416 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:57.776 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:57.936 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:58.145 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:58.912 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:13:59.248 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:00.065 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:00.288 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:01.712 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:02.400 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:03.440 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:05.264 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:05.872 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:06.432 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:07.424 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/smw_coin.wav
+03:14:07.424 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+03:14:07.424 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:14:07.425 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+03:14:07.425 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+03:14:08.739 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+03:14:08.740 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:14:08.740 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+03:14:08.740 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+03:14:09.632 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/sounds/dmg.wav
+03:14:09.664 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.696 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.728 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.760 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.792 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.824 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.856 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.888 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.920 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:09.968 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/sounds/dmg.wav
+03:14:12.753 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+03:14:12.753 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:14:12.754 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+03:14:12.754 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+03:14:14.654 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+03:14:14.654 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:14:14.654 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+03:14:14.654 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+03:14:14.656 [JavaFX Application Thread] DEBUG MainWindow           - Push state: DialogSubState
+03:14:14.656 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:14:14.657 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from GameScene and adding to DialogSubState
+03:14:14.657 [JavaFX Application Thread] DEBUG MainWindow           - GameScene -> DialogSubState
+03:14:14.657 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+03:14:14.658 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from file system: /assets/levels/Map/unbenannt.tmx
+03:14:14.659 [JavaFX Application Thread] WARN  TMXLevelLoader       - TiledMap generated from 1.3.4. Supported version: 1.2.3. Some features may not be parsed fully.
+03:14:14.663 [JavaFX Application Thread] DEBUG TMXLevelLoader       - Parsed raw map: TiledMap(width=45, height=30, tilewidth=30, tileheight=30, orientation=orthogonal, layers=[Layer(width=45, height=30, name=Kachelebene 1, type=tilelayer, visible=false, x=0, y=0, data=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], objects=[], opacity=0.0, draworder=), Layer(width=0, height=0, name=, type=objectgroup, visible=false, x=0, y=0, data=[], objects=[com.almasb.fxgl.entity.level.tiled.TiledObject@676330a, com.almasb.fxgl.entity.level.tiled.TiledObject@532d5951, com.almasb.fxgl.entity.level.tiled.TiledObject@22f0d12a, com.almasb.fxgl.entity.level.tiled.TiledObject@7344d3b4, com.almasb.fxgl.entity.level.tiled.TiledObject@441d40b5, com.almasb.fxgl.entity.level.tiled.TiledObject@7d437eb6, com.almasb.fxgl.entity.level.tiled.TiledObject@599e99b5, com.almasb.fxgl.entity.level.tiled.TiledObject@c923841, com.almasb.fxgl.entity.level.tiled.TiledObject@2224d98e, com.almasb.fxgl.entity.level.tiled.TiledObject@4474a5b2, com.almasb.fxgl.entity.level.tiled.TiledObject@698adfb8, com.almasb.fxgl.entity.level.tiled.TiledObject@74c7b2f8, com.almasb.fxgl.entity.level.tiled.TiledObject@702bfd47, com.almasb.fxgl.entity.level.tiled.TiledObject@11139fc5, com.almasb.fxgl.entity.level.tiled.TiledObject@2e5bf540, com.almasb.fxgl.entity.level.tiled.TiledObject@6742d201, com.almasb.fxgl.entity.level.tiled.TiledObject@48acda6b, com.almasb.fxgl.entity.level.tiled.TiledObject@45cc890c, com.almasb.fxgl.entity.level.tiled.TiledObject@34cc9500, com.almasb.fxgl.entity.level.tiled.TiledObject@456f9b42, com.almasb.fxgl.entity.level.tiled.TiledObject@6b3e6e06, com.almasb.fxgl.entity.level.tiled.TiledObject@4a1b0e84, com.almasb.fxgl.entity.level.tiled.TiledObject@1a2fe652, com.almasb.fxgl.entity.level.tiled.TiledObject@23a3cbde, com.almasb.fxgl.entity.level.tiled.TiledObject@3b75cff2, com.almasb.fxgl.entity.level.tiled.TiledObject@29088936, com.almasb.fxgl.entity.level.tiled.TiledObject@4cf0e733, com.almasb.fxgl.entity.level.tiled.TiledObject@71b03848, com.almasb.fxgl.entity.level.tiled.TiledObject@642f63d3, com.almasb.fxgl.entity.level.tiled.TiledObject@9030759], opacity=0.0, draworder=)], tilesets=[], backgroundcolor=, renderorder=right-down, nextobjectid=46, version=1, tiledversion=1.3.4, type=map, infinite=false, properties={}, propertytypes={})
+03:14:14.663 [JavaFX Application Thread] DEBUG TMXLevelLoader       - Creating tile layer entities
+03:14:14.664 [JavaFX Application Thread] DEBUG TilesetLoader        - Loading view for layer Kachelebene 1
+03:14:14.664 [JavaFX Application Thread] DEBUG TilesetLoader        - Created buffer with size 1350.0x900.0
+03:14:14.665 [JavaFX Application Thread] DEBUG TMXLevelLoader       - Creating object layer entities
+03:14:14.671 [JavaFX Application Thread] DEBUG GameWorld            - Clearing removable entities
+03:14:14.671 [JavaFX Application Thread] DEBUG GameWorld            - Setting level: com.almasb.fxgl.entity.level.Level@3846619a
+03:14:17.744 [JavaFX Application Thread] DEBUG MainWindow           - Pop state: DialogSubState
+03:14:17.744 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+03:14:17.744 [JavaFX Application Thread] DEBUG Engine               - Removing overlay from DialogSubState and adding to GameScene
+03:14:17.744 [JavaFX Application Thread] DEBUG MainWindow           - GameScene <- DialogSubState
+03:14:22.249 [JavaFX Application Thread] DEBUG Engine               - Exiting FXGL
+03:14:22.250 [JavaFX Application Thread] DEBUG Engine               - Shutting down background threads
+03:14:22.250 [JavaFX Application Thread] DEBUG Engine               - Saving FXGL system data
+03:14:22.252 [JavaFX Application Thread] DEBUG FSServiceImpl        - Writing to: G:\Desk\Projects\FXGLPlatformer\system\fxgl.bundle
+03:14:22.254 [JavaFX Application Thread] DEBUG Engine               - Closing logger and exiting JavaFX
